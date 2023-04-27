@@ -2,11 +2,12 @@ package com.xuecheng.content;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.xuecheng.base.model.PageParams;
-import com.xuecheng.base.model.PageResult;
+
 import com.xuecheng.content.mapper.CourseBaseMapper;
 import com.xuecheng.content.model.dto.QueryCourseParamsDto;
 import com.xuecheng.content.model.po.CourseBase;
+import com.xuechng.base.model.PageParams;
+import com.xuechng.base.model.PageResult;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -24,7 +25,7 @@ import java.util.List;
 @SpringBootTest
 public class CourseBaseMapperTests {
 
-    @Autowired
+    @Autowired(required = false)
     CourseBaseMapper courseBaseMapper;
 
     @Test

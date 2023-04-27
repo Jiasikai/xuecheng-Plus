@@ -1,23 +1,20 @@
 package com.xuecheng.content.api;
 
-import com.xuecheng.base.model.PageParams;
-import com.xuecheng.base.model.PageResult;
+
 import com.xuecheng.content.model.dto.AddCourseDto;
 import com.xuecheng.content.model.dto.CourseBaseInfoDto;
 import com.xuecheng.content.model.dto.QueryCourseParamsDto;
 import com.xuecheng.content.model.po.CourseBase;
 import com.xuecheng.content.service.CourseBaseInfoService;
+import com.xuechng.base.model.PageParams;
+import com.xuechng.base.model.PageResult;
+
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author Mr.M
@@ -26,7 +23,9 @@ import java.util.List;
  * @date 2023/2/11 15:44
  */
 @Api(value = "课程信息管理接口",tags = "课程信息管理接口")
-@RestController
+@RestController // @RestController是@Controller和@ResponseBody的结合体，两个标注合并起来的作用。
+//@Controller类中的方法可以直接通过返回String跳转到jsp、ftl、html等模版页面。在方法上加@ResponseBody注解，也可以返回实体对象。
+//@RestController类中的所有方法只能返回String、Object、Json等实体对象，不能跳转到模版页面。
 public class CourseBaseInfoController {
 
     @Autowired
