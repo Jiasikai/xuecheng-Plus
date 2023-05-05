@@ -29,7 +29,6 @@ public class TeachplanController {
    @GetMapping("/teachplan/{courseId}/tree-nodes")
  public List<TeachplanDto> getTreeNodes(@PathVariable Long courseId){
        List<TeachplanDto> teachplanTree = teachplanService.findTeachplanTree(courseId);
-
        return teachplanTree;
    }
 
