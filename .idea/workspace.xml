@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12c82241-6e97-4e4e-b846-ed6aac71d58e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuechng/base/exception/ValidationGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/TeachplanController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/EditCourseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/SaveTeachplanDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/TeachplanDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/TeachplanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/TeachplanServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuechng/base/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuechng/base/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/AddCourseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/AddCourseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/TeachplanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/TeachplanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/target/classes/com/xuecheng/content/api/CourseBaseInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/target/classes/com/xuecheng/content/api/CourseBaseInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/target/classes/com/xuecheng/content/model/dto/AddCourseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/target/classes/com/xuecheng/content/model/dto/AddCourseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/TeachplanMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/mapper/TeachplanMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/mapper/TeachplanMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/service/CourseBaseInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/service/CourseBaseInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/target/classes/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../学成在线项目—资料/day03 课程计划  JSR303/代码/xuecheng-plus-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -58,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\86159\Desktop\java\学成在线\code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\src\main\java\com\xuecheng\content\service\impl" />
+      <recent name="C:\Users\86159\Desktop\java\学成在线\code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-model\src\main\java\com\xuecheng\content\model\dto" />
       <recent name="C:\Users\86159\Desktop\java\学成在线\code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\src\main\java\com\xuecheng\content\service" />
       <recent name="C:\Users\86159\Desktop\java\学成在线\code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-api\src\main\java\com\xuecheng\content\api" />
-      <recent name="C:\Users\86159\Desktop\java\学成在线\code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-model\src\main\java\com\xuecheng\content\model\dto" />
       <recent name="C:\Users\86159\Desktop\java\学成在线\code\xuecheng-plus-project\xuecheng-plus-base\src\main\java\com\xuechng\base\exception" />
-      <recent name="C:\Users\86159\Desktop\java\学成在线\code\xuecheng-plus-project\xuecheng-plus-system\xuecheng-plus-system-api\src\main\java\com\xuecheng\system\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xuecheng.content.model.dto" />
@@ -138,6 +143,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="HTTP Request.xc-content-api#2" />
+      <item itemvalue="JUnit.CourseCategoryMapperTests.testCourseCategoryMapper" />
+      <item itemvalue="JUnit.CourseCategoryServiceTests.testCourseCategoryService" />
+      <item itemvalue="Spring Boot.ContentApplication" />
+      <item itemvalue="Spring Boot.SystemApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.SystemApplication" />
@@ -165,7 +177,8 @@
       <workItem from="1682576854100" duration="10699000" />
       <workItem from="1682593887480" duration="10943000" />
       <workItem from="1682750115210" duration="3338000" />
-      <workItem from="1683006292843" duration="3550000" />
+      <workItem from="1683006292843" duration="5644000" />
+      <workItem from="1683266979116" duration="811000" />
     </task>
     <task id="LOCAL-00001" summary="提交父工程和base基础工程">
       <created>1681803933843</created>
@@ -209,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682596541558</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="day02">
+      <created>1683010653765</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683010653765</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
