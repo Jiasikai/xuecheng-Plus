@@ -16,10 +16,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author Mr.M
  * @version 1.0
@@ -71,5 +67,15 @@ public class CourseBaseInfoController {
     }
 
 
-
+    @ApiOperation("删除课程")
+    @DeleteMapping("/course/{courseId}")
+    public void deleteCourse(@PathVariable Long courseId) {
+//        SecurityUtil.XcUser user = SecurityUtil.getUser();
+//        Long companyId = null;
+//        if (StringUtils.isNotEmpty(user.getCompanyId())) {
+//            companyId = Long.parseLong(user.getCompanyId());
+//        }
+        Long companyId = 1232141425L;
+        courseBaseInfoService.delectCourse(companyId, courseId);
+    }
 }
