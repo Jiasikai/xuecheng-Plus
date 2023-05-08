@@ -1,0 +1,16 @@
+2023-05-07 23:00:02,144 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2023-05-07 23:00:02,144 DEBUG [PollingServerListUpdater-0][HostReactor.java:306] - failover-mode: false
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for media-api obtained from Discovery client: [192.168.49.1:63050]
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for media-api obtained from Discovery client: [192.168.49.1:63050]
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for media-api obtained from Discovery client: [192.168.49.1:63050]
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for media-api obtained from Discovery client: [192.168.49.1:63050]
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api]: clearing server list (SET op)
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api]: clearing server list (SET op)
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [media-api]:  addServer [192.168.49.1:63050]
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [media-api]:  addServer [192.168.49.1:63050]
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.49.1:63050]}
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.49.1:63050]}
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api_unknown]: clearing server list (SET op)
+2023-05-07 23:00:02,148 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [media-api_unknown]: clearing server list (SET op)
+2023-05-07 23:00:02,149 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [media-api_unknown]:  addServer [192.168.49.1:63050]
+2023-05-07 23:00:02,149 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [media-api_unknown]:  addServer [192.168.49.1:63050]
