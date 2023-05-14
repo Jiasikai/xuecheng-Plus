@@ -91,7 +91,7 @@ public class CoursePublishTask extends MessageProcessAbstract {
         coursePublishService.uploadCourseHtml(courseId,file);
 
         //..任务处理完成写任务状态为完成
-        mqMessageService.completedStageOne(taskId);.
+        mqMessageService.completedStageOne(taskId);
     }
     //保存课程索引信息 第二个阶段任务
     private void saveCourseIndex(MqMessage mqMessage,long courseId){
