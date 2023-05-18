@@ -1,4 +1,4 @@
-2023-05-15 18:18:36,915 ERROR [com.alibaba.nacos.client.naming.updater][NamingProxy.java:617] - [NA] failed to request
+2023-05-15 18:06:12,280 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:617] - [NA] failed to request
 java.net.SocketTimeoutException: connect timed out
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -24,10 +24,8 @@ java.net.SocketTimeoutException: connect timed out
 	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
 	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
 	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
-	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:407)
-	at com.alibaba.nacos.client.naming.core.HostReactor.updateService(HostReactor.java:382)
-	at com.alibaba.nacos.client.naming.core.HostReactor$UpdateTask.run(HostReactor.java:464)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
@@ -35,7 +33,7 @@ java.net.SocketTimeoutException: connect timed out
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-2023-05-15 18:18:37,148 ERROR [com.alibaba.nacos.client.naming.updater][NamingProxy.java:617] - [NA] failed to request
+2023-05-15 18:06:12,280 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:617] - [NA] failed to request
 java.net.SocketTimeoutException: connect timed out
 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
 	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
@@ -61,10 +59,8 @@ java.net.SocketTimeoutException: connect timed out
 	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
 	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
 	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
-	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:493)
-	at com.alibaba.nacos.client.naming.net.NamingProxy.queryList(NamingProxy.java:407)
-	at com.alibaba.nacos.client.naming.core.HostReactor.updateService(HostReactor.java:382)
-	at com.alibaba.nacos.client.naming.core.HostReactor$UpdateTask.run(HostReactor.java:464)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)

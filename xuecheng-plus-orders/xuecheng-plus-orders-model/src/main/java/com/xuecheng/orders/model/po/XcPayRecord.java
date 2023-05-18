@@ -3,6 +3,8 @@ package com.xuecheng.orders.model.po;
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
 import lombok.Data;
 import lombok.ToString;
 
@@ -31,6 +33,7 @@ public class XcPayRecord implements Serializable {
     /**
      * 本系统支付交易号
      */
+    @JsonSerialize(using = ToStringSerializer.class)
     private Long payNo;
 
     /**

@@ -31,4 +31,9 @@ public interface MyCourseTablesService {
      */
     public XcCourseTablesDto getLearningStatus(String userId, Long courseId);
 
+    /*
+    * 保存选课成功
+    *
+    * */
+    public boolean saveChooseCourseSuccess(String chooseCourseId);
 }
