@@ -1,5 +1,8 @@
 ### 申请验证码
 POST {{checkcode_host}}/checkcode/pic
-
+### 申请验证码
+POST localhost:63075/checkcode/pic
+###申请验证码
+POST 192.168.183.130:63075/checkcode/pic
 ### 校验验证码
 POST {{checkcode_host}}/checkcode/verify?key=checkcode:2169d82f69114226b449b567c806ee15&code=ntm6

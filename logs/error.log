@@ -1,3 +1,14 @@
-2023-05-18 19:48:40,549 ERROR [AMQP Connection 192.168.183.130:5672][CachingConnectionFactory.java:1575] - Channel shutdown: connection error
-2023-05-18 19:48:40,550 ERROR [AMQP Connection 192.168.183.130:5672][CachingConnectionFactory.java:1575] - Channel shutdown: connection error
-2023-05-18 19:48:42,790 ERROR [AMQP Connection 192.168.183.130:5672][CachingConnectionFactory.java:1575] - Channel shutdown: connection error
+2023-05-19 19:40:12,532 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63075 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63075 or configure this application to listen on another port.
+

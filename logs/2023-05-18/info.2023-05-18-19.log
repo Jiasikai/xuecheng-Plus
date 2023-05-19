@@ -1,0 +1,16 @@
+2023-05-18 22:30:49,675 WARN [Thread-8][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-05-18 22:30:49,675 WARN [Thread-40][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-05-18 22:30:49,675 WARN [Thread-8][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-05-18 22:30:49,675 WARN [Thread-40][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-05-18 22:30:50,209 WARN [Thread-40][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-05-18 22:30:50,209 WARN [Thread-40][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-05-18 22:30:50,210 WARN [Thread-8][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-05-18 22:30:50,210 WARN [Thread-8][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-05-18 22:30:50,275 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-05-18 22:30:50,275 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-05-18 22:30:50,280 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-05-18 22:30:50,280 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-05-18 22:30:50,313 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-05-18 22:30:50,313 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-05-18 22:30:50,314 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-05-18 22:30:50,314 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin

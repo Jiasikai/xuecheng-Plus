@@ -2,16 +2,19 @@ package com.xuecheng.learning.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.xuecheng.content.model.po.CoursePublish;
 import com.xuecheng.learning.feignclient.ContentServiceClient;
 import com.xuecheng.learning.mapper.XcChooseCourseMapper;
 import com.xuecheng.learning.mapper.XcCourseTablesMapper;
+import com.xuecheng.learning.model.dto.MyCourseTableParams;
 import com.xuecheng.learning.model.dto.XcChooseCourseDto;
 import com.xuecheng.learning.model.dto.XcCourseTablesDto;
 import com.xuecheng.learning.model.po.XcChooseCourse;
 import com.xuecheng.learning.model.po.XcCourseTables;
 import com.xuecheng.learning.service.MyCourseTablesService;
 import com.xuechng.base.exception.XueChengPlusException;
+import com.xuechng.base.model.PageResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -261,5 +264,29 @@ public class MyCourseTablesServiceImpl implements MyCourseTablesService {
 
         return false;
     }
+
+    public PageResult<XcCourseTables> mycourestabls(MyCourseTableParams params){
+        //页码
+        long pageNo = params.getPage();
+        //每页记录数
+        long pageSize = params.getSize();
+        //分页条件
+        Page<XcCourseTables> page = new Page<>(pageNo, pageSize);
+        //根据用户id查询
+        String userId = params.getUserId();
+        LambdaQueryWrapper<XcCourseTables> lambdaQueryWrapper = new LambdaQueryWrapper<XcCourseTables>().eq(XcCourseTables::getUserId, userId);
+
+        //分页查询
+        Page<XcCourseTables> pageResult = courseTablesMapper.selectPage(page, lambdaQueryWrapper);
+        List<XcCourseTables> records = pageResult.getRecords();
+        //记录总数
+        long total = pageResult.getTotal();
+        PageResult<XcCourseTables> courseTablesResult = new PageResult<>(records, total, pageNo, pageSize);
+        return courseTablesResult;
+
+    }
+
+
+
 
 }
